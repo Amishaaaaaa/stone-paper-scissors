@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    <h1 class="title">Stone-Paper-Scissors</h1>
+    <div class="choices">
+        <div class = "choice" id = "stone">
+            <img src="./images/stone.jpg" alt = "stone" height="120vmin" width="120vmin">
+        </div>
+        <div class = "choice" id = "paper">
+            <img src="./images/paper.jpg" alt = "paper" height="120vmin" width="120vmin">
+        </div>
+        <div class = "choice" id = "scissors">
+            <img src="./images/scissors.png" alt = "scissors" height="120vmin" width="120vmin">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <center><p id="user-score">0</p></center>
+            <p><h1 class="text">User</h1></p>
+        </div>
+        <div class="score">
+            <center><p id="pc-score">0</p></center>
+            <p><h1 class="text">Computer</h1></p>
+        </div>
+    </div> 
+    <p class="result">
+        Click on the icons to choose!
+    </p>
+    <div class="last">  
+        <button class="msg hide">Play your Move</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
